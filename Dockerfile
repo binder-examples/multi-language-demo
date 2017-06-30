@@ -10,6 +10,8 @@ RUN apt-get update \
 	&& apt-get install -y --no-install-recommends ca-certificates \
 	&& rm -rf /var/lib/apt/lists/*
 
+RUN apt-get update && apt-get install -y wget libzmq3-dev cmake libmpich-dev mpich && apt-get clean
+
 ENV JULIA_PATH /usr/local/julia
 ENV JULIA_VERSION 0.6.0
 
@@ -31,3 +33,4 @@ ENV PATH $JULIA_PATH/bin:$PATH
 
 RUN julia -e 'Pkg.add("IJulia"); Pkg.update()'
 
+## https://github.com/jupyter/repo2docker/issues/23
