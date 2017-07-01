@@ -16,3 +16,6 @@ ENV PATH $PATH:$HOME/julia/bin
 
 # Install Julia kernel
 RUN julia -e 'Pkg.init();Pkg.update();Pkg.add("IJulia");Pkg.add("Plots");Pkg.add("DifferentialEquations")'
+RUN julia -e 'using Plots, DifferentialEquations'
+
+
