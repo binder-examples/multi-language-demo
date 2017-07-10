@@ -1,1 +1,2 @@
 libxt-dev
+libgl1-mesa-dev
