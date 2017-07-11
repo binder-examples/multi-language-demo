@@ -1,2 +1,0 @@
-cmake
-zlib1g-dev
