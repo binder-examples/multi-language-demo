@@ -1,7 +1,10 @@
 dependencies:
   - matplotlib
   - numpy
+  - rpy2
   - pip
   - pip:
       - julia
+      - cffi_magic
+      
   
