@@ -1,12 +1,10 @@
-# Julia and Python environments
+# Multi-language demo.
 
-And R, Rust, Fortran, Cython, C. 
+This is a demo showing how you can intermingle Python,  R, Rust, Fortran, Cython, C. 
 
+You can try it :
 
-[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/Carreau/julia-python/master)
+[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/binder-examples/multi-language-demo/master)
 
-This example shows how you can install a Julia and Python environment side-by-side.
-In this repository are *both* an `environment.yml` file as well as a `REQURE` file.
-The former corresponds to an anaconda python environment, and the latter corresponds
-to a Julia environment. Both kernels will be available to you in a built Binder
-environment.
+And read the [accompanying blog post](https://blog.jupyter.org/i-python-you-r-we-julia-baf064ca1fb6).
+
