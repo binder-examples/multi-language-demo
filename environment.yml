@@ -3,6 +3,7 @@ dependencies:
   - numpy
   - pandas
   - fortran-magic 
+  - cython
   - rpy2
   - pip
   - pip:

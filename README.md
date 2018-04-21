@@ -1,6 +1,9 @@
 # Julia and Python environments
 
-[![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/binder-examples/julia_python/master)
+And R, Rust, Fortran, Cython, C. 
+
+
+[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/Carreau/julia-python/master)
 
 This example shows how you can install a Julia and Python environment side-by-side.
 In this repository are *both* an `environment.yml` file as well as a `REQURE` file.
